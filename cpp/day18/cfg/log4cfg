@@ -1,0 +1,4 @@
+log4cpp.rootCategory=DEBUG, console
+log4cpp.appender.console=ConsoleAppender
+log4cpp.appender.console.layout=PatternLayout
+log4cpp.appender.console.layout.ConversionPattern=%d [%p] %m%n
